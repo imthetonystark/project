@@ -1,0 +1,68 @@
+.stages__air{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    /* /* top:6.5%; */
+    left:320px; 
+    animation: air 15s linear infinite 0s;
+}
+@keyframes air {
+    8% {
+        top:6.5%;
+        left:90%;
+    }
+    16% {
+        left:90%;
+        transform: rotate(90deg);
+        top: 18.5%;
+    }
+    24% {
+        transform: rotate(180deg);
+        left:0%;
+        top: 18.5%;
+    }
+    32% {
+        top: 30%;
+        transform: rotate(90deg);
+    }
+    40% {
+        left: 0%;
+        top: 29%;
+        transform: rotate(0deg);
+    }
+    48% {
+        top: 30%;
+        left: 90%;
+    }
+    56% {
+        top: 41%;
+        left: 90%;
+        transform: rotate(90deg);
+    }
+     64% {
+        left: 0%;
+        top: 41%;
+        transform: rotate(180deg);
+    }
+    72% {
+        left: 0%;
+        top: 55%;
+        transform: rotate(90deg);
+    }
+    80% {
+        left: 90%;
+        top: 55%;
+        transform: rotate(0deg);
+    }
+    88% {
+        left: 90%;
+        top: 67%;
+        transform: rotate(90deg);
+    }
+    96% {
+        left: 0%;
+        top: 67%;
+        transform: rotate(180deg);
+    }
+
+}
